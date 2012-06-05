@@ -3,6 +3,8 @@
 //--------------------------------------------------------------
 void testApp::setup(){
     
+    // note, this is not a graphical demo.  all output will show up in the console.
+    
     ofLocale displayAsFrench = ofLocale::getFrance();
     ofLocale displayAsPRC = ofLocale::getPRC();
     
